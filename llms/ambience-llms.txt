@@ -1,0 +1,32 @@
+# Ambience
+
+> Ambience Healthcare builds an AI operating system for healthcare — an ambient
+> AI platform for real-time medical encounter transcription, clinical note
+> generation, integrated clinical documentation improvement (CDI) with ICD-10
+> coding suggestions, and EHR patient-context enrichment across 100+ specialties.
+> It integrates with major EHRs (Epic, Oracle Cerner, athenahealth). The
+> Integration API is gated: documentation and access are granted on request via
+> emr-integration@ambiencehealthcare.com. Backed by a16z and Oak HC/FT.
+
+<!-- method: generated | source: apis.yml + public site (docs/trust/blog); no public OpenAPI or SDK published as of 2026-07-17 -->
+
+## Product
+
+- [Products overview](https://www.ambiencehealthcare.com/products): The Ambience AI platform for documentation, coding, and clinical workflow.
+- [Company site](https://www.ambiencehealthcare.com/): Ambient AI for healthcare.
+
+## API
+
+- [Integration API docs (gated)](https://docs.ambiencehealthcare.com/): Landing page for the Ambience Integration API — transcription, note generation, CDI/ICD-10, EHR enrichment. Request access and full docs via emr-integration@ambiencehealthcare.com.
+
+## Trust & Security
+
+- [Trust Center](https://trust.ambiencehealthcare.com/): Vanta-hosted trust center; HIPAA compliance published.
+- [Privacy Policy](https://www.ambiencehealthcare.com/privacy)
+- [Terms of Service](https://cdn.prod.website-files.com/65be6ed75db0972f744bb6b1/65c1a3f7d8cbb7b2397bd541_63fd4608cf1aa8041a98d378_terms.pdf)
+
+## More
+
+- [Blog](https://www.ambiencehealthcare.com/blog)
+- [Careers](https://www.ambiencehealthcare.com/careers)
+- [Contact](mailto:emr-integration@ambiencehealthcare.com)
