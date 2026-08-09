@@ -1,19 +1,14 @@
 aid: ambience
 name: Ambience
-description: >-
-  Ambience Healthcare builds an AI operating system for healthcare that reduces
-  clinician administrative burden and protects revenue integrity at the point of
-  care. Its ambient AI platform performs real-time medical encounter
-  transcription, clinical note generation, integrated clinical documentation
-  improvement (CDI) with ICD-10 coding suggestions, and EHR patient-context
-  enrichment across more than 100 specialties in outpatient, emergency, and
-  inpatient settings. The platform integrates directly with major EHRs including
-  Epic, Oracle Cerner, and athenahealth. Founded in 2020 and headquartered in
-  San Francisco, Ambience is backed by roughly $370M in funding, including a
-  $243M Series C co-led by Andreessen Horowitz (a16z) and Oak HC/FT. Ambience
-  exposes a gated Integration API (documentation and access granted on request
-  via emr-integration@ambiencehealthcare.com) rather than a public self-serve
-  developer program.
+description: Ambience Healthcare builds an AI operating system for healthcare that reduces clinician administrative
+  burden and protects revenue integrity at the point of care. Its ambient AI platform performs real-time
+  medical encounter transcription, clinical note generation, integrated clinical documentation improvement
+  (CDI) with ICD-10 coding suggestions, and EHR patient-context enrichment across more than 100 specialties
+  in outpatient, emergency, and inpatient settings. The platform integrates directly with major EHRs including
+  Epic, Oracle Cerner, and athenahealth. Founded in 2020 and headquartered in San Francisco, Ambience
+  is backed by roughly $370M in funding, including a $243M Series C co-led by Andreessen Horowitz (a16z)
+  and Oak HC/FT. Ambience exposes a gated Integration API (documentation and access granted on request
+  via emr-integration@ambiencehealthcare.com) rather than a public self-serve developer program.
 url: https://raw.githubusercontent.com/api-evangelist/ambience/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -39,7 +34,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-08-08'
 tags:
 - Company
 - Healthcare
@@ -51,12 +46,10 @@ tags:
 - Health IT
 apis:
 - name: Ambience Integration API
-  description: >-
-    Gated integration API for embedding Ambience's ambient AI clinical
-    documentation into EHR and partner workflows — medical encounter
-    transcription, clinical note generation, integrated CDI with ICD-10
-    suggestions, and EHR patient-context enrichment. Access and full
-    documentation are granted on request via emr-integration@ambiencehealthcare.com.
+  description: Gated integration API for embedding Ambience's ambient AI clinical documentation into EHR
+    and partner workflows — medical encounter transcription, clinical note generation, integrated CDI
+    with ICD-10 suggestions, and EHR patient-context enrichment. Access and full documentation are granted
+    on request via emr-integration@ambiencehealthcare.com.
   humanURL: https://docs.ambiencehealthcare.com/
   tags:
   - Healthcare
@@ -91,6 +84,20 @@ common:
   url: https://cdn.prod.website-files.com/65be6ed75db0972f744bb6b1/65c1a3f7d8cbb7b2397bd541_63fd4608cf1aa8041a98d378_terms.pdf
 - type: LLMsTxt
   url: llms/ambience-llms.txt
+- type: Clinicians
+  url: https://www.ambiencehealthcare.com/clinicians
+- type: Business
+  url: https://www.ambiencehealthcare.com/business
+- type: Informatics
+  url: https://www.ambiencehealthcare.com/informatics
+- type: Demo
+  url: https://www.ambiencehealthcare.com/demo
+- type: Careers
+  url: https://www.ambiencehealthcare.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ambience-healthcare
+- type: Twitter
+  url: https://twitter.com/AmbienceHQ
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -101,3 +108,5 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- ambience-ai
